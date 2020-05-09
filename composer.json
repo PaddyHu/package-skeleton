@@ -1,11 +1,11 @@
 {
-    "name": "spatie/:package_name",
+    "name": "paddy/:package_name",
     "description": ":package_description",
     "keywords": [
         "spatie",
         ":package_name"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "",
     "license": "MIT",
     "authors": [
         {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Paddy\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Skeleton": "Paddy\\Skeleton\\SkeletonFacade"
             }
         }
     },
